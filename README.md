@@ -1,2 +1,2 @@
 # QFMtool
-A tool to evaluated fuzzy quantified expressions using QFMs
+A tool to evaluate fuzzy quantified expressions using QFMs
