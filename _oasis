@@ -10,6 +10,6 @@ Plugins: META (0.4), DevFiles (0.4)
 
 Library "qfm"
   Path: src
-  Modules: Base, Qfm, Threecut, Fuzzyset, Cripset, Replevels, Plot, Parser,Qfm_lexer,Qfm_parser, Dfsaxioms, Gui, Sfquantifier
-  BuildDepends: unix, threads, batteries, plplot, lablgtk2, lablgtk2.rsvg
+  Modules: Base, Qfm, Threecut, Fuzzyset, Cripset, Replevels, Parser,Qfm_lexer,Qfm_parser, Dfsaxioms, Gui, Sfquantifier
+  BuildDepends: unix, threads, batteries, lablgtk2, lablgtk2.rsvg
 
