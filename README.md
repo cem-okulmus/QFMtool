@@ -3,6 +3,8 @@ A tool to evaluate fuzzy quantified expressions using Quantifier Fuzzification M
 
 ![qfmtool1](https://user-images.githubusercontent.com/36513234/36345491-df3490c8-142b-11e8-8055-100396611e1a.png)
 
+__Note:__ Using the plotting tool requires a folder "Plots" to be present in the same directory. A copy of this is provided in the repository, and the plots can be rendered manually by installing the QFM library and running the function "generate_svgs". Instructions for this optional step are given below.
+
 ## Download
 
 On the [Release page](https://github.com/cem-okulmus/QFMtool/releases/tag/1.0)
@@ -33,6 +35,8 @@ The following libraries need to be installed (through opam).
 
   - OCaml Batteries Included `opam install batteries`
   - OCaml GTK2 bindings `opam install lablgtk2` (__Note:__ if lablgtk2.rsvg was not already installed during step 0, then no bindings will be created, which are needed to succesfully build QFMtool)
+  
+Optionally, [Plplot](http://plplot.sourceforge.net/) can also be installed. To use this in the QFM library, the \_oasis file has to slightly changed, as it doesn't install this by default, as it is not needed. In "BuildDepends:", "plplot" must be added, and in "Modules:",  "Plot" must be added. This _must_ be done before running `oasis setup`. Otherwise, it must be rerun. 
   
 3. __Using Oasis to build/install QFM__
 
