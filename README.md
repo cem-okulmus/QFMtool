@@ -26,7 +26,7 @@ On Linux just use the packaging system of your distro of choice, on MacOS [a few
 
 The build process uses Oasis, a build manager for Ocaml. Install it through opam by typing `opam install oasis`.
 
-2.__Install needed OCaml libraries.__ 
+2. __Install needed OCaml libraries.__ 
 
 The following libraries need to be installed (through opam). 
 
