@@ -5,6 +5,7 @@ A tool to evaluate fuzzy quantified expressions using Quantifier Fuzzification M
 
 ## Download
 
+On the [Release page](https://github.com/cem-okulmus/QFMtool/releases/tag/1.0)
 
 
 ## Build instructions
