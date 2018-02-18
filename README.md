@@ -18,8 +18,7 @@ Needed libraries: lablgtk2 (including lablgtk2.rsvg), (optionally: plplot)
 0. __Make sure that the needed tools and libraries are installed.__ 
 On Linux just use the packaging system of your distro of choice, on MacOS [a few options are available](https://ocaml.org/docs/install.html#macOS). __Note:__ The corresponding developement packages (-dev, -devel, etc.) _have_ to be installed as well.
 1. __Install Oasis.__ 
-The build process uses Oasis, a build manager for Ocaml. 
-Install it through opam by typing `opam install oasis`. 
+The build process uses Oasis, a build manager for Ocaml. Install it through opam by typing `opam install oasis`. 
 2.__Install needed OCaml libraries.__ 
 The following libraries need to be installed (through opam). 
   - OCaml Batteries Included `opam install batteries`
