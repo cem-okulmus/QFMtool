@@ -26,11 +26,9 @@ The following libraries need to be installed (through opam).
 3. __Using Oasis to build/install QFM__
  Open a terminal, and set the working directory to be where the \_oasis file is located. 
 Then type `oasis setup && make && make install`
-
 This will first set up the build process, and then proceed to build and install the QFM library. 
 These can then be imported on the Ocaml toplevel. The QFM folder should also have a ".ocamlinit" file, so just typing 
 "ocaml" here should already load the library. 
-
 There is a build script to build the QFMtool UI (the Linux version should work on MacOS too), but compiling  requires local installation of a few libraries, beyond the ones mentioned here (no catch-all for all environments, read the error-messages and make sure to have everything needed for linking, _should_ be fairly straightforward). 
 
 ### On Windows
@@ -44,7 +42,6 @@ First install depext and depext-cygports through opam
   - `opam install depext` 
   - `opam install depext-cygports` 
 __Note:__ make sure to add "/usr/i686-w64-mingw/sys-root/mingw/bin" to the PATH, as recommended by the last command.
-
 Afterward, the following commands should install all that is needed: 
   - `opam install oasis`
   - `opam depext -i lablgtk` 
@@ -55,10 +52,8 @@ Then,
   - `oasis setup`  (to set up the make environment) 
   - `make`
   - `make install` (use 'make reinstall' in future executions) 
-
 Use the denoted buildscript (should be called 'buildui_win.sh')
   - `./buildui_win.sh`
-
 This will generate a "QFMtool.exe" file. 
 __Note__: This will only run with all needed dlls from 
 "/usr/i686-w64-mingw/sys-root/mingw/bin" unfortunately
