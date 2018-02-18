@@ -16,7 +16,7 @@ Needed libraries: lablgtk2 (including lablgtk2.rsvg), (optionally: plplot)
 ### On Linux and MacOS
 
 0. __Make sure that the needed tools and libraries are installed.__ 
-On Linux just use the packaging system of your distro of choice, on MacOS ![a few options are available](https://ocaml.org/docs/install.html#macOS). __Note:__ The corresponding developement packages (-dev, -devel, etc.) _have_ to be installed as well.
+On Linux just use the packaging system of your distro of choice, on MacOS [a few options are available](https://ocaml.org/docs/install.html#macOS). __Note:__ The corresponding developement packages (-dev, -devel, etc.) _have_ to be installed as well.
 1. __Install Oasis.__ 
 The build process uses Oasis, a build manager for Ocaml. 
 Install it through opam by typing `opam install oasis`. 
@@ -37,7 +37,7 @@ There is a build script to build the QFMtool UI (the Linux version should work o
 ### On Windows
 
 1. __Set up the OCaml environment.__
-Install the "graphical installer" ![from here](https://fdopen.github.io/opam-repository-mingw/installation/) (32-bit recommended 
+Install the "graphical installer" [from here](https://fdopen.github.io/opam-repository-mingw/installation/) (32-bit recommended 
 for compatability purposes, maybe this gets better in time) The installer should be straightforward to use. It will setup Cygwin
 and everything else needed. 
 2. __Install needed libraries.__
