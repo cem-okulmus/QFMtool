@@ -9,11 +9,14 @@ A tool to evaluate fuzzy quantified expressions using Quantifier Fuzzification M
 
 ## Build instructions
 
-Needed tools:   ocaml, opam
-Needed libraries: lablgtk2 (including lablgtk2.rsvg), (optionally: plplot)
+__Needed tools__:   ocaml, opam
+
+__Needed libraries__: lablgtk2 (including lablgtk2.rsvg), (optionally: plplot)
 
 
 ### On Linux and MacOS
+
+_Note on MacOS: _In principle_ this should be identical, as MacOS is natively supported by the OCaml developer, INRIA. However, I have no MacOS machine available to make sure things work as described here. In a perfect world, it should behave identical to how it does on Linux, though._ 
 
 0. __Make sure that the needed tools and libraries are installed.__ 
 
