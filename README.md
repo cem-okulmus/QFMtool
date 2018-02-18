@@ -17,16 +17,13 @@ Needed libraries: lablgtk2 (including lablgtk2.rsvg), (optionally: plplot)
 
 0. __Make sure that the needed tools and libraries are installed.__ 
 On Linux just use the packaging system of your distro of choice, on MacOS [a few options are available](https://ocaml.org/docs/install.html#macOS). __Note:__ The corresponding developement packages (-dev, -devel, etc.) _have_ to be installed as well.
-
 1. __Install Oasis.__ 
 The build process uses Oasis, a build manager for Ocaml. 
 Install it through opam by typing `opam install oasis`. 
-
 2.__Install needed OCaml libraries.__ 
 The following libraries need to be installed (through opam). 
   - OCaml Batteries Included `opam install batteries`
   - OCaml GTK2 bindings `opam install lablgtk2` (__Note:__ if lablgtk2.rsvg was not already installed during step 0, then no bindings will be created, which are needed to succesfully build QFMtool)
-
 3. __Using Oasis to build/install QFM__
  Open a terminal, and set the working directory to be where the \_oasis file is located. 
 Then type `oasis setup && make && make install`
