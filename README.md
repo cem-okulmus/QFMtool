@@ -4,10 +4,14 @@ A tool to evaluate fuzzy quantified expressions using Quantifier Fuzzification M
 ![qfmtool1](https://user-images.githubusercontent.com/36513234/36345491-df3490c8-142b-11e8-8055-100396611e1a.png)##
 
 ## List of implemented QFMs
- - Three models from Ingo Glöckner (http://www.springer.com/de/book/9783540296348)
- - Four models from Diaz-Hermida et al. (http://ieeexplore.ieee.org/abstract/document/1516158/, https://www.sciencedirect.com/science/article/pii/S016501140400096X)
- - One QFM based on representation levels from Sanchez et al. (https://www.sciencedirect.com/science/article/pii/S0165011411003186)
- - A game-based QFM model from Baldi and Fermüller (https://link.springer.com/chapter/10.1007/978-3-319-66830-7_11)
+ - Three models from Ingo Glöckner  
+   (http://www.springer.com/de/book/9783540296348)
+ - Four models from Diaz-Hermida et al.  
+   (http://ieeexplore.ieee.org/abstract/document/1516158/, https://www.sciencedirect.com/science/article/pii/S016501140400096X)
+ - One QFM based on representation levels from Sanchez et al.  
+   (https://www.sciencedirect.com/science/article/pii/S0165011411003186)
+ - A game-based QFM model from Baldi and Fermüller  
+   (https://link.springer.com/chapter/10.1007/978-3-319-66830-7_11)
  
 __Note:__ Using the plotting tool requires a folder "Plots" to be present in the same directory. A copy of this is provided in the repository, and the plots can be rendered manually by installing the QFM library and running the function "generate_svgs". Instructions for this optional step are given below.
 
