@@ -5,6 +5,10 @@ A tool to evaluate fuzzy quantified expressions using Quantifier Fuzzification M
 
 __Note:__ Using the plotting tool requires a folder "Plots" to be present in the same directory. A copy of this is provided in the repository, and the plots can be rendered manually by installing the QFM library and running the function "generate_svgs". Instructions for this optional step are given below.
 
+## Syntax of queries
+
+Todo
+
 ## Download
 
 On the [Release page](https://github.com/cem-okulmus/QFMtool/releases/tag/1.0)
