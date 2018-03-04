@@ -1,0 +1,5 @@
+children = [ (Albert,1/2) ,(Bertha,0),(Colin,1),(David,1),(Ellen,1),(Fiona,1)],
+
+tall = [ (Albert,1/2) ,(Bertha,1),(Colin,1/4),(David,0),(Ellen,0),(Fiona,1/2)]
+
+FA[around_half](children,tall)
