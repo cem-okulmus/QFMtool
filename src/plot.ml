@@ -58,7 +58,7 @@ let plot_truth_3D ?sample:(sample=100) (f: num -> num -> num) filename =
     plcol0 1;
     plvpor (-0.1) 1.1 (-0.22) 1.0;
     plwind (-1.0) 1.0 (-1.0) 1.5;
-    plw3d 1.0 1.0 1.2 0.0 1.0 (0.0) 1.0 0.0 1.0 33.0 45.0;
+    plw3d 1.0 1.0 1.2 0.0 1.0 (0.0) 1.0 0.0 1.0 33.0 60.0;
     plbox3 "bnstu" "" 0.0 0
            "bnstu" "" 0.0 0
            "bcdmnstuv" "" 0.0 0;
